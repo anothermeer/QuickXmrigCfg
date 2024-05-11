@@ -1,6 +1,7 @@
 @echo off
 cls
 title miner
+cd /d "%~dp0"
 
 :init
 echo initializing...
